@@ -1,2 +1,4 @@
 *.user
 .vs
+x64/*
+AtCoder/x64/*
