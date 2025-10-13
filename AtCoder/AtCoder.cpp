@@ -5,7 +5,7 @@
 #include <iostream>
 #include <vector>
 #include "DummyInput.h"
-#include "ABC426/ABC426.h"
+#include "Problems/ABC426.h"
 
 
 #ifdef LOCAL_TEST
@@ -14,7 +14,7 @@
 
 int debugMain()
 {
-	MAKE_DUMMY_INPUT(in, "Ocelot Ocelot");
-	A(in);
+	MAKE_DUMMY_INPUT(in, "8 5 2 6 3 5 1 7 5 7 7 8");
+	C2(in);
 	return 0;
 }
