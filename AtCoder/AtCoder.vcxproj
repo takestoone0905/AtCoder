@@ -191,11 +191,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AtCoder.cpp" />
-    <ClCompile Include="DummyInput.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DummyInput.h" />
     <ClInclude Include="Lib.h" />
+    <ClInclude Include="Problems\ABC424.h" />
+    <ClInclude Include="Problems\ABC425.h" />
     <ClInclude Include="Problems\ABC426.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

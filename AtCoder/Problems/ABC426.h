@@ -116,11 +116,8 @@ void C2(std::istream& in)
 	}
 }
 
-
-#ifndef LOCAL_TEST
 int main()
 {
 	C2(std::cin);
 	return 0;
 }
-#endif // !LOCAL_TEST

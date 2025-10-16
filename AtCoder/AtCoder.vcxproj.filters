@@ -13,9 +13,6 @@
     <ClCompile Include="AtCoder.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="DummyInput.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lib.h">
@@ -25,6 +22,12 @@
       <Filter>ソース ファイル</Filter>
     </ClInclude>
     <ClInclude Include="Problems\ABC426.h">
+      <Filter>ソース ファイル\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\ABC425.h">
+      <Filter>ソース ファイル\Problems</Filter>
+    </ClInclude>
+    <ClInclude Include="Problems\ABC424.h">
       <Filter>ソース ファイル\Problems</Filter>
     </ClInclude>
   </ItemGroup>
