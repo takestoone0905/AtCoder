@@ -22,8 +22,23 @@ void A(std::istream& in)
 	std::cout << "No" << std::endl;
 }
 
+void B(std::istream& in)
+{
+	int N, M, K; in >> N >> M >> K;
+	std::vector<int> A(N, 0);
+	for (size_t i = 0; i < K; i++)
+	{
+		int a, b; in >> a >> b;
+		A[a - 1]++;
+		if (A[a - 1] == M)
+		{
+			std::cout << a << " ";
+		}
+	}
+}
+
 int main()
 {
-	A(std::cin);
+	B(std::cin);
 	return 0;
 }
